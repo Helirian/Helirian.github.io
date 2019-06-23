@@ -1,0 +1,37 @@
+<style>
+
+/*calc*/
+.main {
+    width: calc(70%-8px);
+    float: left;
+}
+
+.aside {
+
+}
+/*calc*/
+
+
+.row > * {
+    float: left;
+    box-sizing: content-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>

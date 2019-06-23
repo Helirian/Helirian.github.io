@@ -1,0 +1,99 @@
+<style>
+html {
+    font-size: 16px;
+}
+body {
+    color: black;
+}
+.article-item {
+    color: blue;
+    font-size: 1em;
+}
+h1 {
+    font-size: 1.2em;
+}
+
+.image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.image img {
+    display: block;
+}
+
+
+main {
+width: 70%;
+float: left;
+color: rgb(24, 2, 39);
+}
+
+.sidebar {
+    width: 30%;
+    float: right;
+}
+
+/*blog-post*/
+
+.blog-post header {
+    height: auto;
+}
+
+/*end blog-post*/
+
+/*banner*/
+#banner {
+    color: indigo;
+    text-align: center;
+    padding: 6em 0;
+    background-attachment: fixed;
+    background-image: url(/public/lake01.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner .inner {
+    background: rgba(116, 184, 240, 0.2);
+}
+
+.container {
+
+}
+
+
+.button.special:hover {
+    background: rgba(225, 75, 75, 0.2);
+}
+
+
+header.special .icon:before {
+    font-size: 3.5em;
+    opacity: 0.35; /*прозрачность иконки*/
+}
+
+
+
+
+.footer {
+    width: 100%;
+}
+
+.footer .footer-socials a {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    line-height: 45px;
+    width: 45px;
+    height: 45px;
+    background-color: silver;
+}
+
+
+
+
+
+
+
+</style>
