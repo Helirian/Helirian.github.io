@@ -8,25 +8,63 @@
     <link rel="stylesheet" href="css/main01.css"><!-- Внешняя таблица стилей -->
     <link rel="stylesheet" href="css/nav01.css">
     <link rel="stylesheet" href="css/banner01.css">
+    <link rel="stylesheet" href="css/lander01.css">
 </head>
 <body><!-- Основная часть документа -->
     <nav class="navbar"><!--Область навигации-->
         <span class="logo"><a href="#" title="">Bla-bla information</a></span>
         <ul class="navbar-items">
-            <li class="current"><a href="./index.html">Home</a></li>
-            <li><a href="blog.html">Blog</a></li>
+            <li><a href="./index.html">Home</a></li>
+            <li class="current"><a href="./blog.html">Blog</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="search&calc.html">Search&Calc</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-    <div class="article-item">Lorem ipsum dolor sit amet consectetur adipisicing 
-        elit. Expedita totam nulla excepturi nesciunt reiciendis impedit ex! 
-        Deserunt hic esse in, ipsa, quod quam iure sint necessitatibus tenetur 
-        saepe eius provident.</div>
-    <header>
-        <a href="index.html"><h1>Intellectual property</h1></a> <!--Заголовок со ссылкой-->
+    <!-- Header -->    
+    <header id="top" class="header">
+        <div class="row">
+            <div class="header-content">
+                <h1 id="logo-text">Intellectual property</h1>
+                <p id="intro">Creations of the mind</p>
+            </div>
+        </div>
     </header>
+    <!--  End Header -->
+
+
+
+    <div class="container">
+        <!-- Content -->
+        <main class="main">
+            <!-- articles -->
+            <!-- blog-post -->
+            <article class="blog-post">
+                <header>
+                    <h2><a>WIPO</a></h2><!--??????????как добавить ссылку на сайт?-->
+                    <div class="blog-post--meta">
+                        <ul>
+                            <li>June 24, 2019</li>
+                            <li><a href="#" title="" rel="category tag">Ghost</a></li>
+                            <li>Unknown</li>
+                        </ul>
+                    </div>
+                </header>
+
+                <div class="blog-post--content">
+                    <p>I've come to talk with you again
+                        Because a vision softly creeping
+                        Left its seeds while I was sleeping
+                        And the vision that was planted in my brain
+                        Still remains
+                        Within the sound of silence</p>
+                </div>
+
+            </article>
+            <!-- end blog-post -->
+            <!-- blog-post -->
+
+
 
     
         <article>
@@ -82,19 +120,23 @@
 
 
     <aside><!--Вероятнее всего рекламные блоки-->
-
     </aside>
 
+
+    <!-- Footer -->
     <footer class="footer">
         <div class="footer-socials">
             <a href="#"><i class="fa fa-facebook"></i></a>
             <a href="#"><i class="fa fa-twitter"></i></a>
             <a href="#"><i class="fa fa-google-plus"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
         </div>
-        <div class="footer-bottom">
-            &copy; 2020. All rights unknown.<br>
-            Crafted by <a href="#">Helirian Rey</a>
-        </div>
+        <ul class="copyright">
+            <li>Copyright &copy; 2019 Thief All Rights Unknown.</li>
+            <li>Crafted by: <a href="#">Helirian Rey</a></li>
+            <li><address>Kyiv, Ukraine </address></li>
+        </ul>
     </footer>
+    <!-- End Footer-->
 </body>
 </html>

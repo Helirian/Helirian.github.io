@@ -1,11 +1,16 @@
 .navbar {
     width: 100%;
     display: table;
-    background:url(../road05.jpg) #002e5b;
+    background:url(../road05.jpg) whitesmoke;
 }
 
 .navbar-items {
     float: right;
+    margin-top: 0%;
+    padding-right: 2em;
+}
+.navbar-logo {
+    float: left;
     margin-top: 0%;
     padding-right: 2em;
 }
@@ -24,7 +29,7 @@
 }
 
 .navbar a {
-    color:#eee;
+    color: rgba(11, 114, 143, 0.05)
     padding: 10px 20px;
     font-size: 1.2em;
 }
