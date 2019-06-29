@@ -1,17 +1,50 @@
-<style>
 html {
     font-size: 16px;
 }
 body {
     color: black;
-}
-.article-item {
-    color: blue;
-    font-size: 1em;
+    font-size: 1rem; /*размер в rem - относительно родительского*/
+    line-height: 1.5; /*межстрочный интервал*/
 }
 h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.6em;
+}
+h3 {
     font-size: 1.2em;
 }
+strong {
+    font-weight: 600;
+}
+header {
+    height: 20vh; /*задаем высоту основного заголовка*/
+    background-color: lightskyblue;
+}
+main {
+    width: 70%;
+    float: left;
+    color: black;
+    }
+    
+.sidebar {
+    width: 30%;
+    float: right;
+}
+/*blog-post*/
+.blog-post header {
+    height: auto;
+}
+/*end blog-post*/
+
+
+
+.blog-post--meta li{
+    display: inline-block;
+}
+
+
 
 .image {
     display: block;
@@ -22,45 +55,18 @@ h1 {
     display: block;
 }
 
+.article-item {
+    color: blue;
+    font-size: 1em;
+}
+.row {
+    display: inline;
 
-main {
-width: 70%;
-float: left;
-color: rgb(24, 2, 39);
 }
 
-.sidebar {
-    width: 30%;
-    float: right;
-}
 
-/*blog-post*/
 
-.blog-post header {
-    height: auto;
-}
 
-/*end blog-post*/
-
-/*banner*/
-#banner {
-    color: silver;
-    text-align: center;
-    padding: 6em 0;
-    background-attachment: fixed;
-    background-image: url(/public/lake01.jpg);
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#banner .inner {
-    background: rgba(116, 184, 240, 0.2);
-}
-
-.container {
-
-}
 
 
 .button.special:hover {

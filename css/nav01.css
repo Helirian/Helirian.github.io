@@ -1,7 +1,11 @@
+a {
+    text-decoration: none;
+}
 .navbar {
     width: 100%;
+    max-width: 100%;
     display: table;
-    background:url(../road05.jpg) whitesmoke;
+    background:url(../images/pattern04.jpg) white;
 }
 
 .navbar-items {
@@ -9,6 +13,22 @@
     margin-top: 0%;
     padding-right: 2em;
 }
+.navbar-items li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 2em;    
+    padding: 10px 10px;
+    color: azure;
+}
+
+.navbar a {
+    color: rgba(250, 250, 250, 0.05)
+    padding: 10px 20px;
+    font-size: 1.2em;
+}
+
+
+
 .navbar-logo {
     float: left;
     margin-top: 0%;
@@ -20,20 +40,6 @@
     display: inline-block;
     padding: 10px 0px;
 }
-
-.navbar-items li {
-    list-style: none;
-    display: inline-block;
-    margin-left: 2em;    
-    padding: 10px 10px; 
-}
-
-.navbar a {
-    color: rgba(11, 114, 143, 0.05)
-    padding: 10px 20px;
-    font-size: 1.2em;
-}
-
 a, a:hover, a:focus, a:active, a.active {
 	outline: 0;
     text-decoration: none;
@@ -44,3 +50,28 @@ a, a:hover, a:focus, a:active, a.active {
     background: rgba(11, 114, 143, 0.15);
     text-decoration: underline;
 }
+
+
+.navbar label {
+    display: block;
+}
+
+
+/*для выбора менюшки кнопкой, при сжатии экрана*/
+
+.navbar input[type="checkbox"] + label {
+    color: yellow;
+    font-size: normal;
+}
+.navbar input[type="checkbox"]:checked + label {
+    color: green;
+    font-size: normal;
+}
+.navbar input[type="checkbox"] {
+    display: none;
+}
+.navbar-items {
+    list-style: none;
+    display: inline-block;
+    left: -250px;
+}/*кнопка меню прикрепяется к левому верхнему углу навбара*/

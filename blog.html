@@ -9,14 +9,16 @@
     <link rel="stylesheet" href="css/nav01.css">
     <link rel="stylesheet" href="css/banner01.css">
     <link rel="stylesheet" href="css/lander01.css">
-</head>
+    </head>
 <body><!-- Основная часть документа -->
-    <nav class="navbar"><!--Область навигации-->
-        <span class="logo"><a href="#" title="">Bla-bla information</a></span>
+    <!--Область навигации-->
+    <nav class="navbar">
+        <span class="logo"><a href="#" title="">HelirianSearches</a></span>
         <ul class="navbar-items">
             <li><a href="./index.html">Home</a></li>
             <li class="current"><a href="./blog.html">Blog</a></li>
             <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
             <li><a href="search&calc.html">Search&Calc</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -24,8 +26,8 @@
     <!-- Header -->    
     <header id="top" class="header">
         <div class="row">
-            <div class="header-content">
-                <h1 id="logo-text">Intellectual property</h1>
+            <div class="header-content twelve columns">
+                <h1 id="logo-text"><a href="index.html" title="">Intellectual property</a></h1>
                 <p id="intro">Creations of the mind</p>
             </div>
         </div>
@@ -41,7 +43,7 @@
             <!-- blog-post -->
             <article class="blog-post">
                 <header>
-                    <h2><a>WIPO</a></h2><!--??????????как добавить ссылку на сайт?-->
+                    <h2><a href="https://www.wipo.int/portal/en/">WIPO</a></h2>
                     <div class="blog-post--meta">
                         <ul>
                             <li>June 24, 2019</li>
@@ -63,64 +65,117 @@
             </article>
             <!-- end blog-post -->
             <!-- blog-post -->
-
-
-
+            <article>
+                <h1>Blog Post1</h1>
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Similique, accusamus aliquam? Neque placeat consequuntur 
+                    iste molestias, maxime nam consequatur aperiam quas perferendis 
+                    officia architecto laborum, in ullam minus hic quos.
+                </div>
+            </article>
+            <article>
+                <h1>Blog Post2</h1>
+                <div class="article-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Similique, accusamus aliquam? Neque placeat consequuntur 
+                        iste molestias, maxime nam consequatur aperiam quas perferendis 
+                        officia architecto laborum, in ullam minus hic quos.
+                </div>
+            </article>
+            <article>
+                <h1>Blog Post3</h1>
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Similique, accusamus aliquam? Neque placeat consequuntur 
+                        iste molestias, maxime nam consequatur aperiam quas perferendis 
+                        officia architecto laborum, in ullam minus hic quos.
+                </div>
+            </article>
+            <article>
+                <h1>Blog Post4</h1>
+                <div class="article-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Similique, accusamus aliquam? Neque placeat consequuntur 
+                        iste molestias, maxime nam consequatur aperiam quas perferendis 
+                        officia architecto laborum, in ullam minus hic quos.
+                </div>
+            </article>
+            <article class="container">
+                <form method="" action="#">
+                    <div class="row">
+                        <div class="6u">
+                            <input type="text" name="name" id="name" value="" placeholder="Name"/>
+                        </div>
     
-        <article>
-            <h1>Blog Post1</h1>
-            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Similique, accusamus aliquam? Neque placeat consequuntur 
-                iste molestias, maxime nam consequatur aperiam quas perferendis 
-                officia architecto laborum, in ullam minus hic quos.
+                    </div>
+                </form>
+                <h1>Blog Post5</h1>
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Similique, accusamus aliquam? Neque placeat consequuntur 
+                        iste molestias, maxime nam consequatur aperiam quas perferendis 
+                        officia architecto laborum, in ullam minus hic quos.
+                </div>
+            </article>
+        </main>
+        <!-- Sidebar -->
+        <aside class="sidebar">
+    
+            <div class="widget widget-search">
+                <h3>Search</h3>
+                <form action="#">
+                    <input type="text" value="Search here..." class="text-search">
+                </form>
             </div>
-        </article>
 
-        <article>
-            <h1>Blog Post2</h1>
-            <div class="article-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Similique, accusamus aliquam? Neque placeat consequuntur 
-                    iste molestias, maxime nam consequatur aperiam quas perferendis 
-                    officia architecto laborum, in ullam minus hic quos.
+            <div class="widget widget-categories">
+                <h3>Categories.</h3>
+                <ul>
+                    <li><a href="#" title="">Wordpress</a> (2)</li>
+                    <li><a href="#" title="">Ghost</a> (14)</li>
+                    <li><a href="#" title="">Joomla</a> (5)</li>
+                    <li><a href="#" title="">Drupal</a> (3)</li>
+                    <li><a href="#" title="">Magento</a> (2)</li>
+                    <li><a href="#" title="">Uncategorized</a> (9)</li>
+                </ul>
             </div>
-        </article>
 
-        <article>
-            <h1>Blog Post3</h1>
-            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Similique, accusamus aliquam? Neque placeat consequuntur 
-                    iste molestias, maxime nam consequatur aperiam quas perferendis 
-                    officia architecto laborum, in ullam minus hic quos.
+            <div class="widget widget-text">
+                <h3>Widget Text.</h3>
+
+                <p>Lorem ipsum Ullamco commodo laboris sit dolore commodo aliquip incididunt fugiat esse dolor aute
+                    fugiat minim eiusmod do velit labore fugiat officia ad sit culpa labore in consectetur sint cillum
+                    sint consectetur voluptate adipisicing Duis irure magna ut sit amet reprehenderit.</p>
+
             </div>
-        </article>
 
-        <article>
-            <h1>Blog Post4</h1>
-            <div class="article-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Similique, accusamus aliquam? Neque placeat consequuntur 
-                    iste molestias, maxime nam consequatur aperiam quas perferendis 
-                    officia architecto laborum, in ullam minus hic quos.
+            <div class="widget widget-tags">
+                <h3>Post Tags.</h3>
+
+                <div class="tagcloud group">
+                    <a href="#">Corporate</a>
+                    <a href="#">Onepage</a>
+                    <a href="#">Agency</a>
+                    <a href="#">Multipurpose</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Landing Page</a>
+                    <a href="#">Resume</a>
+                </div>
+
             </div>
-        </article>
 
-        <article>
-            <h1>Blog Post5</h1>
-            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Similique, accusamus aliquam? Neque placeat consequuntur 
-                    iste molestias, maxime nam consequatur aperiam quas perferendis 
-                    officia architecto laborum, in ullam minus hic quos.
+            <div class="widget widget-popular">
+                <h3>Popular Post.</h3>
+
+                <ul class="link-list">
+                    <li><a href="#">Sint cillum consectetur voluptate.</a></li>
+                    <li><a href="#">Lorem ipsum Ullamco commodo.</a></li>
+                    <li><a href="#">Fugiat minim eiusmod do.</a></li>
+                </ul>
+
             </div>
-        </article>
 
-
-
-
-
-    <script src="" async defer></script><!-- Подключение сценариев -->
-
-
-    <aside><!--Вероятнее всего рекламные блоки-->
-    </aside>
+        </aside>
+        <!-- End Sidebar -->
+    </div>
+    
+    
 
 
     <!-- Footer -->
@@ -138,5 +193,6 @@
         </ul>
     </footer>
     <!-- End Footer-->
+    <script src="" async defer></script><!-- Подключение сценариев -->
 </body>
 </html>
