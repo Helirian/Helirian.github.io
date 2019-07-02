@@ -15,7 +15,7 @@
     display: inline-block;
     text-align: center;
     padding: 3em;
-    background: rgba(52, 27, 43, 0.5);
+    background: rgba(146, 55, 182, 0.5);
 }
 
 #banner .inner header {
@@ -51,14 +51,16 @@
     margin: 2em 0 0 0;
 }
 
+
+
+
 .bg {
     background-size: cover;
     background-attachment: fixed;
-    height: 30vh;
+    height: 10em;
     width: 100%;
 }
-
 .bg1{
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/who03.png);
 }
 
