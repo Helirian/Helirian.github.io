@@ -16,6 +16,11 @@
 .row {
     margin: -50px 0 -1px -50px;
 }
+.img {
+    width: 150px;
+    height: 150px;
+
+}
 
 .\31 2u {
     width: 100%;
@@ -24,7 +29,7 @@
 }
 
 .\31 1u {
-    width: 91.6666666667%;
+    width: calc(1100%/12);
     clear: none;
     margin-left: 0;
 }
