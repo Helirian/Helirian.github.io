@@ -75,70 +75,6 @@ strong {
     font-weight: 700;
 }
 
-/* Navigation */
-a {
-    text-decoration: none;
-}
-a:link {
-    color: rgba(74, 5, 158, 1);
-}
-a:visited {
-    color: rgba(74, 5, 158, 1);
-}
-a:hover, a:focus {
-    text-decoration: underline;
-}
-.navbar {
-    width: 100%;
-    max-width: 100%;
-    display: table;
-    background:url(../images/pattern04.jpg) white;
-}
-.navbar-items {
-    float: right;
-    margin-top: 0%;
-    padding-right: 2em;
-}
-.navbar-items li {
-    list-style: none;
-    display: inline-block;
-    margin-left: 2em;
-    padding: 10px 10px;
-    color: azure;  
-}
-.navbar a {
-    font-size: 1.2em;
-}
-/*
-.navbar a {
-    color: rgba(250, 250, 250, 0.05)
-    padding: 10px 20px;
-    font-size: 1.2em;
-}
-*/
-.navbar-logo {
-    float: left;
-    margin-top: 0%;
-    padding-right: 2em;
-}
-.logo {
-    margin-left: 2em;
-    display: inline-block;
-    padding: 10px 0px;
-}
-a, a:hover, a:focus, a:active, a.active {
-	outline: 0;
-    text-decoration: none;
-}
-.navbar a:hover, .navbar a:focus, .navbar a:active, .navbar a.active {
-    color: #dccbf1;
-    background: rgba(11, 114, 143, 0.15);
-    text-decoration: underline;
-}
-.navbar label {
-    display: block;
-}
-
 /*Header*/
 .header {
     color: #fff;
@@ -262,7 +198,7 @@ p {
 	font-weight: 500;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	color: #717171;
+	color: indigo;
 	text-align: center;
     border-top: 1px solid #CECECE;
     background: #f8f8f8;
@@ -331,9 +267,7 @@ p {
     float: left;
 }
 
-.aside {
 
-}
 /*calc*/
 
 

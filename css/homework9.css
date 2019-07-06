@@ -1,0 +1,9 @@
+/*CSS Variables*/
+:root {
+    --primary: rgba(11, 1, 33, 1);
+    --dark: rgba(25, 11, 59, 1);
+    --light: rgba(201, 191, 224, 1);
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    --navbar-background: indigo;
+    --nav-hover-color: lime;
+}

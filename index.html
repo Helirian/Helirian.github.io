@@ -5,13 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title><!-- Заголовок документа -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic,greek" rel="stylesheet">
+    <link rel="stylesheet" href="css/nav01.css">
+    <link rel="stylesheet" href="css/carousel.css">
     <link rel="stylesheet" href="css/main02.css"><!-- Внешняя таблица стилей -->
     <link rel="stylesheet" href="css/banner01.css">
-    <link rel="stylesheet" href="css/landing01.css">
+    <link rel="stylesheet" href="css/lander01.css">
+    <link rel="stylesheet" href="css/12u.css">
+    
 </head>
 <body><!-- Основная часть документа -->
     <nav class="navbar"><!--Область навигации-->
-        <span class="logo"><a href="#" title="">HelirianSearches</a></span><!--?????добавить лого--></a></span>
+        <span class="logo"><a href="index.html" title=""><img class="img-navlogo" src="../images/valknut03.png"></a></span>
         <ul class="navbar-items">
             <li class="current"><a href="./index.html">Home</a></li>
             <li><a href="blog.html">Blog</a></li>
@@ -24,13 +29,69 @@
     <!--пустой блок для очистки слева и справа "both"с отсутствующим контентом-->
     <div class="cf"></div>
 
+    <div class="carouselbanner">
+        <div class="carousel my-carousel carousel--translate">
+            <input class="carousel__activator" type="radio" name="carousel" id="F" checked="checked" />
+            <input class="carousel__activator" type="radio" name="carousel" id="G" />
+            <input class="carousel__activator" type="radio" name="carousel" id="H" />
+            <input class="carousel__activator" type="radio" name="carousel" id="I" />
+            <input class="carousel__activator" type="radio" name="carousel" id="J" />
+            <div class="carousel__controls">
+                <label class="carousel__control carousel__control--backward" for="J"></label>
+                <label class="carousel__control carousel__control--forward" for="G"></label>
+            </div>
+            <div class="carousel__controls">
+                <label class="carousel__control carousel__control--backward" for="F"></label>
+                <label class="carousel__control carousel__control--forward" for="H"></label>
+            </div>
+            <div class="carousel__controls">
+                <label class="carousel__control carousel__control--backward" for="G"></label>
+                <label class="carousel__control carousel__control--forward" for="I"></label>
+            </div>
+            <div class="carousel__controls">
+                <label class="carousel__control carousel__control--backward" for="H"></label>
+                <label class="carousel__control carousel__control--forward" for="J"></label>
+            </div>
+            <div class="carousel__controls">
+                <label class="carousel__control carousel__control--backward" for="I"></label>
+                <label class="carousel__control carousel__control--forward" for="F"></label>
+            </div>
+            <div class="carousel__track">
+                <li class="carousel__slide">
+                    <!--<h1>F</h1>-->
+                </li>
+                <li class="carousel__slide">
+                    <!--<h1>G</h1>-->
+                </li>
+                <li class="carousel__slide">
+                    <!--<h1>H</h1>-->
+                </li>
+                <li class="carousel__slide">
+                    <!--<h1>I</h1>-->
+                </li>
+                <li class="carousel__slide">
+                    <!--<h1>J</h1>-->
+                </li>
+            </div>
+            <div class="carousel__indicators">
+                <label class="carousel__indicator" for="F"></label>
+                <label class="carousel__indicator" for="G"></label>
+                <label class="carousel__indicator" for="H"></label>
+                <label class="carousel__indicator" for="I"></label>
+                <label class="carousel__indicator" for="J"></label>
+            </div>
+        </div>
+    </div>
+
     <section id="banner">
         <div class="inner">
             <header><h1>Intellectual property</h1></header>
             <p> Intellectual property refers to creations of the mind: 
             inventions; literary and artistic works; and symbols, 
             names and images used in commerce.</p>
-            <footer><buttons href="#main" class="button-fit-scrolly">Do not enter</buttons></footer>
+            <footer><ul class="buttons">
+                <li><a href="#" class="button do-not-enter">Do not enter</a></li></ul>
+            </footer>
         </div>
     </section>
 

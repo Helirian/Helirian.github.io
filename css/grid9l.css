@@ -1,0 +1,21 @@
+.grid-container div{
+    color:#fff;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-container div:nth-child(1n){
+    background-color: #C1DBB3;
+}
+.grid-container div:nth-child(3n){
+    background-color: #7798AB;
+}
+.grid-container div:nth-child(2n){
+    background-color: #FF8966;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows:1fr 1fr;
+}

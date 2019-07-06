@@ -1,13 +1,22 @@
+/* Navigation */
 a {
     text-decoration: none;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: rgb(0,255,88);
+}
+a:hover, a:focus {
+    text-decoration: underline;
 }
 .navbar {
     width: 100%;
     max-width: 100%;
     display: table;
-    background:url(../images/pattern04.jpg) white;
+    background:indigo;
 }
-
 .navbar-items {
     float: right;
     margin-top: 0%;
@@ -16,9 +25,12 @@ a {
 .navbar-items li {
     list-style: none;
     display: inline-block;
-    margin-left: 2em;    
+    margin-left: 2em;
     padding: 10px 10px;
-    color: azure;
+    color: azure;  
+}
+.navbar a {
+    font-size: 1.2em;
 }
 /*
 .navbar a {
@@ -27,14 +39,11 @@ a {
     font-size: 1.2em;
 }
 */
-
-
 .navbar-logo {
     float: left;
     margin-top: 0%;
     padding-right: 2em;
 }
-
 .logo {
     margin-left: 2em;
     display: inline-block;
@@ -44,34 +53,15 @@ a, a:hover, a:focus, a:active, a.active {
 	outline: 0;
     text-decoration: none;
 }
-
 .navbar a:hover, .navbar a:focus, .navbar a:active, .navbar a.active {
     color: #dccbf1;
     background: rgba(11, 114, 143, 0.15);
     text-decoration: underline;
 }
-
-
 .navbar label {
     display: block;
 }
-
-
-/*для выбора менюшки кнопкой, при сжатии экрана*/
-
-.navbar input[type="checkbox"] + label {
-    color: yellow;
-    font-size: normal;
+.img-navlogo {
+    width: 40px;
+    height: 40px;
 }
-.navbar input[type="checkbox"]:checked + label {
-    color: green;
-    font-size: normal;
-}
-.navbar input[type="checkbox"] {
-    display: none;
-}
-.navbar-items {
-    list-style: none;
-    display: inline-block;
-    left: -250px;
-}/*кнопка меню прикрепяется к левому верхнему углу навбара*/
