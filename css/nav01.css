@@ -62,6 +62,5 @@ a, a:hover, a:focus, a:active, a.active {
     display: block;
 }
 .img-navlogo {
-    width: 40px;
-    height: 40px;
+    max-width: 40px;
 }
