@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="css/main02.css"><!-- Внешняя таблица стилей -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic,greek" rel="stylesheet">
     <link rel="stylesheet" href="css/nav01.css">
+    <link rel="stylesheet" href="css/main02.css"><!-- Внешняя таблица стилей -->
     <link rel="stylesheet" href="css/banner01.css">
     <link rel="stylesheet" href="css/lander01.css">
+    <link rel="stylesheet" href="css/12u.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body><!-- Основная часть документа -->
     <nav class="navbar"><!--Область навигации-->
-        <span class="logo"><a href="index.html" title=""><img class="img-navlogo" src="../images/valknut03.png"></a></span>
+        <span class="logo"><a href="index.html" title=""><img class="img-navlogo" src="../images/valknut03.png" alt=""></a></span>
         <ul class="navbar-items">
             <li><a href="./index.html">Home</a></li>
             <li><a href="blog.html">Blog</a></li>
@@ -22,6 +25,8 @@
             <li class="current"><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+    <!--пустой блок для очистки слева и справа "both"с отсутствующим контентом-->
+    <div class="cf"></div>
     <header>
         <a href="index.html"><h1>Intellectual property</h1></a> <!--Заголовок со ссылкой-->
     </header>
@@ -61,13 +66,13 @@
     <!--пустой блок для очистки слева и справа "both"с отсутствующим контентом-->
     <div class="cf"></div>
     <!-- Footer -->
-    <footer class="footer">
-        <article class="container">
+    <footer id="footer" class="footer">
+        <div class="footer-socials">
             <ul class="icons">
-                <li><a href="#"><i class="fab fa-twitter"></i><span class="label"> Twitter</span></a></li>
-                <li><a href="#"><i class="fab fa-facebook"></i><span class="label"> Facebook</span></a></li>
-                <li><a href="#"><i class="fab fa-instagram"></i><span class="label"> Instagram</span></a></li>
-                <li><a href="#"><i class="fab fa-linkedin"></i><span class="label"> LinkedIn</span></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i><span class="label"></span></a></li>
+                <li><a href="#"><i class="fab fa-facebook"></i><span class="label"></span></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i><span class="label"></span></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i><span class="label"></span></a></li>
             </ul>
             </div>
             <ul class="copyright">
@@ -75,7 +80,7 @@
                 <li>Crafted by: <a href="#">HelirianRey</a></li>
                 <li>Images: <a href="https://pixabay.com/">Painters of Pixabey</a></li>
             </ul>
-        </article>
+        </div>
     </footer>
     <!-- End Footer-->
     <script src="" async defer></script><!-- Подключение сценариев -->

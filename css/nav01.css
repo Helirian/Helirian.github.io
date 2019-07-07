@@ -14,6 +14,7 @@ a:hover, a:focus {
 .navbar {
     width: 100%;
     max-width: 100%;
+    height: auto;
     display: table;
     background:indigo;
 }
